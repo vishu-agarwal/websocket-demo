@@ -1,0 +1,25 @@
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.division {
+  margin-bottom: 20px;
+}
+
+.theater-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
